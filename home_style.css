@@ -1,0 +1,414 @@
+/* 轮播图结束 */
+.home-carousel {
+    line-height: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+    .my-carousel {
+        top: 0;
+    }
+}
+
+.home-carousel-indicators-ol {
+    display: flex;
+    justify-content: center;
+}
+
+.home-carousel-indicators-ol li {
+    float: left;
+}
+
+.home-carousel-caption {
+    height: 17.7vw;
+    font-size: 3rem;
+    text-align: right;
+}
+
+.home-carousel-caption-div1 {
+    font-size: 2vw;
+}
+
+.home-carousel-caption-div2 {
+    font-size: 3vw;
+}
+
+@media screen and (max-width: 767px) {
+    .home-carousel-caption-div1 {
+        font-size: 2vw;
+    }
+
+    .home-carousel-caption-div2 {
+        font-size: 3vw;
+    }
+}
+
+/* 轮播图结束 */
+
+.stu-subrow {
+    margin-top: 7rem;
+}
+
+.stu-subcol {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    .stu-subcol {
+        text-align: center;
+    }
+}
+
+.word {
+    font-size: 1.6rem;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.stu {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.stu div div, .stu div {
+    font-size: 1.4rem;
+}
+
+.stu div {
+    margin-top: 1rem;
+}
+
+.highly {
+    text-align: center;
+    height: 8rem;
+    line-height: 22rem;
+    background: url(images/home_page_rocket.png) no-repeat;
+    background-size: 4rem 6rem;
+    background-position: top;
+}
+
+.standard {
+    text-align: center;
+    height: 8rem;
+    line-height: 22rem;
+    background: url(images/home_page_archive.png) no-repeat;
+    background-size: 6rem 5rem;
+    background-position: top;
+}
+
+.connection {
+    text-align: center;
+    height: 8rem;
+    line-height: 22rem;
+    background: url(images/home_page_connection.png) no-repeat;
+    background-size: 6rem 6rem;
+    background-position: top;
+}
+
+.third_col {
+    border-right: dashed #dedede;
+}
+
+.person_icon {
+    background: url(images/home_page_person_num_icon.png) no-repeat;
+    color: #29b078;
+}
+
+/* 如何学习 */
+.learn-subrow ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    background: url(images/home_page_howtolearn_arrow.png) no-repeat;
+    background-size: 2rem;
+    width: 2.5rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .arrow {
+        width: 0;
+        background: none;
+    }
+}
+
+.learn-title {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.learn-num {
+    text-align: center;
+    line-height: 3.7rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    color: #29b078;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #e6e6e6;
+}
+
+.learn-word {
+    width: 10rem;
+    margin-left: 1rem;
+    font-size: .9rem;
+    color: #a1a1a1;
+}
+
+/* 优秀学员 */
+.good-trainee {
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.trainee-subcol {
+
+}
+
+@media screen and (max-width: 767px) {
+    .trainee-subcol {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.trainee-subcol div {
+    background-color: #ffffff;
+}
+
+.trainee-subcol div div {
+    margin: 0 auto;
+}
+
+.trainee-border {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: 1px solid #eeeded;
+}
+
+@media screen and (max-width: 767px) {
+    .trainee-border {
+        width: 20rem;
+    }
+}
+
+.trainee-title {
+    text-align: center;
+    height: 15rem;
+    line-height: 30rem;
+    font-size: 1.5rem;
+}
+
+.trainee-title1 {
+    background: url(images/home_page_student1.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+}
+
+.trainee-title2 {
+    background: url(images/home_page_student2.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+}
+
+.trainee-title3 {
+    background: url(images/home_page_student3.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+}
+
+.trainee-title4 {
+    background: url(images/home_page_student4.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+}
+
+.trainee-intro {
+    padding-top: 2rem;
+    /*width: 1.4rem;*/
+    font-size: 1.4rem;
+    color: #a1a1a1;
+}
+
+/* 切换圆点 */
+.circle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.circle-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.circle-right {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border: 1px solid #eeeded;
+    border-radius: 50%;
+    list-style: none;
+}
+
+.circle-left {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: #29b078;
+    border: 1px solid #eeeded;
+    border-radius: 50%;
+    list-style: none;
+}
+
+/* 战略合作企业 */
+.co-operative-con {
+    padding-bottom: 5rem;
+}
+
+.co-operative {
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.company-subcol {
+    margin-bottom: 2rem;
+    width: 20%;
+    height: 10rem;
+}
+
+.company {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.company:hover {
+    position: relative;
+    z-index: 999999;
+    -webkit-box-shadow: -5px 0 15px #f1f1f1,
+                        5px 0 15px #f1f1f1,
+                        0 -5px 15px #f1f1f1,
+                        0 5px 15px #f1f1f1;
+    -moz-box-shadow: -5px 0 15px #f1f1f1,
+                     5px 0 15px #f1f1f1,
+                     0 -5px 15px #f1f1f1,
+                     0 5px 15px #f1f1f1;
+    box-shadow: -5px 0 15px #f1f1f1,
+                5px 0 15px #f1f1f1,
+                0 -5px 15px #f1f1f1,
+                0 5px 15px #f1f1f1;
+}
+
+@media screen and (max-width: 767px) {
+    .company-subcol {
+        width: 100%;
+    }
+
+    .company {
+        margin: 0 auto;
+        width: 30%;
+    }
+}
+
+.company1 {
+    background-image: url(images/home_page_alibaba.png);
+    background-repeat: no-repeat;
+    background-size: 13rem 13rem;
+    background-position: center;
+}
+
+.company2 {
+    background-image: url(images/home_page_jinshan.png);
+    background-repeat: no-repeat;
+    background-size: 4rem 4rem;
+    background-position: center;
+}
+
+.company3 {
+    background-image: url(images/home_page_huanxin.png);
+    background-repeat: no-repeat;
+    background-size: 9rem 9rem;
+    background-position: center;
+}
+
+.company4 {
+    background-image: url(images/home_page_ronglian.png);
+    background-repeat: no-repeat;
+    background-size: 14rem 15rem;
+    background-position: center;
+}
+
+.company5 {
+    background-image: url(images/home_page_qiniu.png);
+    background-repeat: no-repeat;
+    background-size: 8rem 7rem;
+    background-position: center;
+}
+
+/* 友情链接 */
+.friendlink-con {
+    padding-top: 3rem;
+    background-color: #ffffff;
+}
+
+.friendlink {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.friendlink-subrow {
+    padding-bottom: 1rem;
+}
+
+.friendlink-subrow ul li {
+    text-align: center;
+    width: 10%;
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .friendlink-subrow ul li {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .friendlink-subrow ul li {
+        text-align: left;
+        width: 50%;
+    }
+}
+
+.friendlink-subcol a {
+
+}
+
+.friend-text {
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+.clear {
+    clear: both;
+}

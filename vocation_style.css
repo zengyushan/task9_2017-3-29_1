@@ -1,0 +1,244 @@
+main {
+    background-color: #fafafa;
+}
+
+/* 职业分类链接 */
+.word {
+    font-size: 1.6rem;
+}
+
+.homepage-word {
+    color: #333333;
+}
+
+.vocation-word {
+    color: #29b078;
+}
+
+.direction {
+    float: left;
+    font-size: 1.4rem;
+}
+
+.kind {
+    float: left;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+.vocation-col1 {
+    height: 6rem;
+    line-height: 6rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-col2 {
+    height: 4rem;
+    display: table;
+}
+
+.all-list {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.all-kind {
+    color: #ffffff;
+    background-color: #29b078;
+}
+
+.vocation-kind {
+    color: #333333;
+}
+
+/* 职业详细信息 */
+.frontend {
+    font-size: 1.6rem;
+    height: 6rem;
+    line-height: 6rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.up-every {
+    margin-top: 3.6rem;
+}
+
+.every-padding {
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+
+.every-subcol {
+    /*width: 33%;*/
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .every-subcol {
+        width: 100%;
+    }
+}
+
+.every-subul {
+    position: relative;
+    border: 1px solid #edf1f2;
+}
+
+.vocation-head {
+    display: table-cell;
+    width: 100%;
+    height: 11em;
+    padding: .8rem .5rem;
+}
+
+.vocation-head img {
+    float: left;
+    margin-right: .4rem;
+    width: 7rem;
+}
+
+.head-title {
+    font-size: 1.2rem;
+}
+
+.head-text {
+    font-size: 1rem;
+    word-break: break-all;
+}
+
+.ul {
+    padding-left: 0;
+}
+
+.ul li {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: .8rem;
+    font-size: .8rem;
+    color: #a9a9a9;
+    border-top: 1px solid #edf1f2;
+    list-style: none;
+}
+
+.job-diff {
+    overflow: hidden;
+}
+
+.sill {
+    background: url(images/vocation_star.png) no-repeat;
+    background-size: 1.1rem 1.1rem;
+    background-position: 3rem .7rem;
+    border-right: 1px solid #edf1f2;
+}
+
+.degree {
+    background: url(images/vocation_star.png) no-repeat,
+    url(images/vocation_star.png) no-repeat;
+    background-size: 1.1rem 1.1rem;
+    background-position: 4.5rem .7rem, 6.1rem .7rem;
+}
+
+.growth-job li {
+    border-bottom: 1px solid #edf1f2;
+}
+
+.cycle {
+    border-right: 1px solid #edf1f2;
+}
+
+.center-word {
+    color: #f01400;
+}
+
+.last-word {
+    color: #333333
+}
+
+.salary-whole {
+    overflow: hidden;
+}
+
+.salary-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 35%;
+    height: 7rem;
+    font-size: .8rem;
+    color: #a9a9a9;
+    border-right: 1px solid #edf1f2;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.salary {
+    float: left;
+    width: 65%;
+    height: 7rem;
+    padding: 0;
+}
+
+.salary li {
+    padding: .57rem;
+    font-size: .8rem;
+    border-bottom: 1px solid #edf1f2;
+    list-style: none;
+}
+
+.salary-mon {
+    float: right;
+}
+
+.how-many-stu {
+    padding: .8rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.how-many-stu span {
+    color: #f01400;
+}
+
+.hint {
+    padding: .8rem;
+    font-size: .8rem;
+    color: #a1a1a1;
+}
+
+/* hover效果 */
+.hover-bg {
+    position: absolute;
+    padding: 5rem 2rem 2rem;
+    width: 100%;
+    height: 100%;
+    visibility: hidden; /* 隐藏 */
+}
+
+.hover-bg-title {
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.hover-bg-content {
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.every-subul:hover .hover-bg {
+    background: url(images/vocation_hover_bg.png) no-repeat;
+    background-size: 100% 100%;
+    /*width: 100%;*/
+    /*!*height: 28.4rem;*!*/
+    /*height: 37.3em;*/
+    visibility: visible;
+}
+
+.clear {
+    height: 12rem;
+    clear: both;
+}

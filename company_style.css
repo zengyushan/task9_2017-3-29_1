@@ -1,0 +1,92 @@
+main{
+    background-color: #fafafa;
+}
+.bg{
+    background-color: #f1a750;
+}
+.company-bg{
+    /*width: 61rem;*/
+    width: 48vw;
+}
+.which-page{
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+}
+.to-homepage{
+    color: #333333;
+}
+
+.co-company{
+    color: #29b078;
+}
+.company-content{
+    background-color: #ffffff;
+}
+.company-title{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #e6e6e6;
+}
+.company-ul{
+    padding-left: 0;
+    padding-top: 1rem;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.company-ul li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /*padding-left: 34%;*/
+
+    list-style: none;
+}
+.company-ul li div{
+    /*border: solid;*/
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    margin: 0 auto;
+}
+.every{
+    font-size: 1.1rem;
+    color: #29b078;
+}
+.every-tudou{
+    font-size: 1.1rem;
+    color: #ff650e;
+}
+.right-content-col{
+    margin-bottom: 16rem;
+}
+.right-content{
+    color: #999999;
+    border: 1px solid #eeeded;
+    background-color: #ffffff;
+}
+.content-top{
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid #eeeded;
+    overflow: hidden;
+}
+.content-top img{
+    float: left;
+    width: 14rem;
+    margin-right: 2rem;
+}
+@media screen and (max-width: 767px){
+    .content-top img{
+        float: none;
+    }
+}
+.content-top div{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+.main-content{
+    padding: 2rem;
+    padding-bottom: 9rem;
+    font-size: 1.1rem;
+}
