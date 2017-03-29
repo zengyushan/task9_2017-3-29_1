@@ -5,7 +5,6 @@ main{
     background-color: #f1a750;
 }
 .company-bg{
-    /*width: 61rem;*/
     width: 48vw;
 }
 .which-page{
@@ -38,12 +37,9 @@ main{
 .company-ul li{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /*padding-left: 34%;*/
-
     list-style: none;
 }
 .company-ul li div{
-    /*border: solid;*/
     display: flex;
     align-items: center;
     width: 7rem;
