@@ -187,6 +187,30 @@ main {
     border-bottom: 1px solid #edf1f2;
     list-style: none;
 }
+/*ie11 css hack*/
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .salary li {
+        padding: .54rem;
+    }
+}
+
+/*ie10 css hack*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .salary li {
+        padding: .54rem;
+    }
+}
+/*ie 8 9*/
+.salary li {
+    padding: .54rem\0;
+}
+
+/*火狐 css hack*/
+@-moz-document url-prefix() {
+    .salary li {
+        padding: .54rem;
+    }
+}
 
 .salary-mon {
     float: right;
