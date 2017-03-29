@@ -241,7 +241,6 @@
 
 .trainee-intro {
     padding-top: 2rem;
-    /*width: 1.4rem;*/
     font-size: 1.4rem;
     color: #a1a1a1;
 }
@@ -297,6 +296,7 @@
 }
 
 .company {
+    background-position: center;
     width: 100%;
     height: 100%;
     background-color: #ffffff;
@@ -306,17 +306,17 @@
     position: relative;
     z-index: 999999;
     -webkit-box-shadow: -5px 0 15px #f1f1f1,
-                        5px 0 15px #f1f1f1,
-                        0 -5px 15px #f1f1f1,
-                        0 5px 15px #f1f1f1;
+    5px 0 15px #f1f1f1,
+    0 -5px 15px #f1f1f1,
+    0 5px 15px #f1f1f1;
     -moz-box-shadow: -5px 0 15px #f1f1f1,
-                     5px 0 15px #f1f1f1,
-                     0 -5px 15px #f1f1f1,
-                     0 5px 15px #f1f1f1;
+    5px 0 15px #f1f1f1,
+    0 -5px 15px #f1f1f1,
+    0 5px 15px #f1f1f1;
     box-shadow: -5px 0 15px #f1f1f1,
-                5px 0 15px #f1f1f1,
-                0 -5px 15px #f1f1f1,
-                0 5px 15px #f1f1f1;
+    5px 0 15px #f1f1f1,
+    0 -5px 15px #f1f1f1,
+    0 5px 15px #f1f1f1;
 }
 
 @media screen and (max-width: 767px) {
@@ -334,35 +334,30 @@
     background-image: url(images/home_page_alibaba.png);
     background-repeat: no-repeat;
     background-size: 13rem 13rem;
-    background-position: center;
 }
 
 .company2 {
     background-image: url(images/home_page_jinshan.png);
     background-repeat: no-repeat;
     background-size: 4rem 4rem;
-    background-position: center;
 }
 
 .company3 {
     background-image: url(images/home_page_huanxin.png);
     background-repeat: no-repeat;
     background-size: 9rem 9rem;
-    background-position: center;
 }
 
 .company4 {
     background-image: url(images/home_page_ronglian.png);
     background-repeat: no-repeat;
     background-size: 14rem 15rem;
-    background-position: center;
 }
 
 .company5 {
     background-image: url(images/home_page_qiniu.png);
     background-repeat: no-repeat;
     background-size: 8rem 7rem;
-    background-position: center;
 }
 
 /* 友情链接 */
@@ -398,10 +393,6 @@
         text-align: left;
         width: 50%;
     }
-}
-
-.friendlink-subcol a {
-
 }
 
 .friend-text {

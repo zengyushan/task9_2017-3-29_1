@@ -70,7 +70,6 @@ main {
 }
 
 .every-subcol {
-    /*width: 33%;*/
     list-style: none;
 }
 
@@ -256,9 +255,6 @@ main {
 .every-subul:hover .hover-bg {
     background: url(images/vocation_hover_bg.png) no-repeat;
     background-size: 100% 100%;
-    /*width: 100%;*/
-    /*!*height: 28.4rem;*!*/
-    /*height: 37.3em;*/
     visibility: visible;
 }
 
